@@ -1,3 +1,5 @@
+[TOC]
+
 MMAR 是一个考察audio reasoning能力的benchmark，有1000个任务。
 
 ## 一、任务格式
