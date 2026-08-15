@@ -151,7 +151,7 @@ $$P_1(1) = p_1$$
 
 p(a) = P(S ≥ a·N) = 瞎蒙蒙对a以上的概率 = 把分布曲线右侧尾巴的面积加起来，可以画出p-a图，如figure4所示。
 
-论文是按照每个题$ p_i = 1/choices $画的曲线图。
+论文是按照每个题$$p_i = 1/choices $$画的曲线图。
 
 **2.Bonferroni**:
 
@@ -191,8 +191,8 @@ p(a) = P(S ≥ a·N) = 瞎蒙蒙对a以上的概率 = 把分布曲线右侧尾�
 
 ```python
 error_type : dict[str,int] ={
-    "Perceptual Error"：0.37，
-    "Knowledger Error”：0.09,
+    "Perceptual Error": 0.37，
+    "Knowledger Error": 0.09,
     "Reasoning Error": 0.20,
     "Other Error": 0.34,
 }
