@@ -310,7 +310,7 @@ def validate_and_score(log_id, raw_response, rubric):
     return total_prediction_score / total_max_score
     
 
-def string_match(answer, prediction, choices):
+def string_match(answer, prediction, choices) -> bool:
     # Function to normalize and tokenize text
     def tokenize(text):
         # Convert to lowercase and find all word tokens

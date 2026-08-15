@@ -1,0 +1,72 @@
+{
+    "id": "qx8hrhBZJ98_00-01-32_00-02-02",
+    "audio_path": "./audio/qx8hrhBZJ98_00-01-32_00-02-02.wav",
+    "question": "What type of natural environment might this music originate from",
+    "choices": [
+        "Mountain Canyon",
+        "Dense Forest",
+        "Open Grassland",
+        "City Streets"
+    ],
+    "answer": "Open Grassland",
+    "modality": "music",
+    "category": "Cultural Layer",
+    "sub-category": "Professional Knowledge and Reasoning",
+    "language": null,
+    "source": "youtube",
+    "url": "https://www.youtube.com/watch?v=qx8hrhBZJ98&list=RDQMaID4naqyfpY&start_radio=1",
+    "timestamp": "00:01:32,00:02:02",
+    "thinking": "The audio features Mongolian long song and throat singing, with a relatively low pitch and long wavelengths. This style is typically heard in broad, relatively flat open landscapes, where the openness helps the sound carry via diffraction.",
+    "cue": [
+        "Throat Singing",
+        "Long Song",
+        "Acoustic Characteristics"
+    ],
+    "rubric": [
+        {
+            "name": "Cue Identification: Throat Singing",
+            "scoring_point": "Award 1 point if the test-taker correctly identifies the presence of throat singing in the audio sample.",
+            "note": "This assesses the ability to detect one of the key acoustic markers relevant to the cultural and environmental context of the music.",
+            "choices": [
+                0,
+                1
+            ]
+        },
+        {
+            "name": "Cue Identification: Long Song",
+            "scoring_point": "Award 1 point if the test-taker correctly identifies the presence of the long song style in the audio sample.",
+            "note": "Recognizing the long song style demonstrates awareness of specific cultural musical characteristics associated with open landscapes.",
+            "choices": [
+                0,
+                1
+            ]
+        },
+        {
+            "name": "Acoustic Environment Reasoning",
+            "scoring_point": "Award 1 point if the test-taker recognizes that the audio’s use of low pitch and long wavelengths indicates suitability for open environments.",
+            "note": "This evaluates the ability to connect specific acoustic properties to how sound carries in different physical environments.",
+            "choices": [
+                0,
+                1
+            ]
+        },
+        {
+            "name": "Cultural Context Association",
+            "scoring_point": "Award 1 point if the test-taker associates the Mongolian origin of the music with an open grassland environment based on cultural knowledge.",
+            "note": "This requires an understanding of the cultural and geographical context in which this style of music is traditionally performed.",
+            "choices": [
+                0,
+                1
+            ]
+        },
+        {
+            "name": "Correct Environmental Selection",
+            "scoring_point": "Award 1 point if the test-taker selects 'Open Grassland' as the natural environment where the music originates.",
+            "note": "This assesses the ability to synthesize cues and reasoning steps into the correct final answer.",
+            "choices": [
+                0,
+                1
+            ]
+        }
+    ]
+}
