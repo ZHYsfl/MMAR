@@ -108,8 +108,8 @@ llm as a judger的精髓是，最好设置明确的rubrics来帮助llm客观的�
 - LALMs
 - LARMs
 - OLMs
-- LLMs(with audio captions from asr models,so it's a cascaded system)
-- LRMs(with audio captions from asr models,so it's a cascaded system)
+- LLMs(with audio captions,so it's a cascaded system)
+- LRMs(with audio captions,so it's a cascaded system)
 
 ## 四、实验设计和结果
 
@@ -175,7 +175,7 @@ p(a) = P(S ≥ a·N) = 瞎蒙蒙对a以上的概率 = 把分布曲线右侧尾�
 
 ![alt text](image-2.png)
 
-#### 4.2.2 级联asr+llm/lrm的系统，不同基座的对比实验：
+#### 4.2.2 级联audio captions+llm/lrm的系统，不同基座的对比实验：
 
 ![alt text](image-3.png)
 
@@ -183,7 +183,7 @@ p(a) = P(S ≥ a·N) = 瞎蒙蒙对a以上的概率 = 把分布曲线右侧尾�
 
 - signal layer对模型最难，semantic layer对模型最简单
 - MMAR的局限性：即使流程规范，仍然有一定文本先验的干扰
-- 提升asr和llm/lrm两个部分都有助于MMAR指标的提升
+- 提升audio captions的质量和llm/lrm两个部分都有助于MMAR指标的提升
 
 ### 4.3 错误分析实验
 
@@ -214,4 +214,4 @@ MMAR 通过一系列实验，证明了以下结论：
 - 无论什么模型和系统，cot对准确率的加成明显，说明了其必要性
 - signal layer对模型最难，semantic layer对模型最简单
 - MMAR的局限性：即使流程规范，仍然有一定文本先验的干扰
-- 提升asr和llm/lrm两个部分都有助于MMAR指标的提升
+- 提升audio captions的质量和llm/lrm两个部分都有助于MMAR指标的提升
