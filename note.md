@@ -2,6 +2,10 @@
 
 MMAR 是一个考察audio reasoning能力的benchmark，有1000个任务。
 
+「论文」：https://arxiv.org/abs/2505.13032
+「视频介绍」：https://www.youtube.com/watch?v=Dab13opIGqU
+「MMAR中的题目，感受一下题目的难度和当前模型推理的能力水平」:https://www.axureshow.com/project/aeZcOaSp/
+
 ## 一、任务格式
 
 每个任务的格式如下：
