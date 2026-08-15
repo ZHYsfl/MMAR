@@ -210,7 +210,7 @@ OtherError_type : dict[str,int] ={
 MMAR 是一个考察audio reasoning能力的benchmark，有1000个任务，每个任务有固定的格式，支持两种评测方式(string_match和llm_as_a_judger)，两种的实现方式都非常值得学习。
 MMAR 通过一系列实验，证明了以下结论：
 - MMAR很难
-- 开源模型距离闭源还有很大的差距
+- 开源模型距离闭源还有很大的差距,大部分开源模型在MMAR上和瞎猜没差别
 - 无论什么模型和系统，cot对准确率的加成明显，说明了其必要性
 - signal layer对模型最难，semantic layer对模型最简单
 - MMAR的局限性：即使流程规范，仍然有一定文本先验的干扰
