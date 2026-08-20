@@ -103,7 +103,7 @@ def string_match(answer, prediction, choices):
 
 ### 2.2 llm as a judger
 
-llm as a judger的精髓是，最好设置明确的rubrics来帮助llm客观的评分，多次评分（比如5次），去掉最高最低分后取平均分。
+见`MMAR-Rubrics-note.md`
 
 ## 三、评测对象
 
